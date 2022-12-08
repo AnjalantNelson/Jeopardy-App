@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to bottom right, rgb(50, 132, 255), rgba(245, 14, 149, 0.686), rgb(7, 247, 215));;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 50vh;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#game {
+    display: flex;
+    background-color: green;
+}
+
+.card{
+    display: center;
+    background-color: rgb(26,26,255);
+    border-left: solid rgb(19,19,160) 10px;
+    border-right: solid rgb(11,11,91) 10px;
+    border-top: solid rgb(1,61,200) 10px;
+    border-bottom: solid rgb(20,20,89) 10px;
+    text-align: center;
+    font-size: 50px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 100px
+}
+
+.first-Button {
+    background-color: blue;
+}
+
+.genre-title {
+    background-color: rgb(26, 26, 255);
+    text-align: center;
+    font-size: 25px;
+    padding: 9px;
+    margin: 5px;
+}
+
+.correct-answer {
+    background-color: rgb(186, 186, 24);
+}
