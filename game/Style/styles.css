@@ -67,11 +67,12 @@ body::before {
     margin: 5px;
     padding: 10px;
     line-height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: auto;
+    justify-content: auto;
+    align-items: auto;
     border-radius: 3px;
     transition: 0.3s;
+    position: static;
 }
 
 .card:hover {
